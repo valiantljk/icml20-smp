@@ -13,10 +13,11 @@ docker run -it modular-rl bash
 * Install Ananconda Navigator
 * Create Environments 'modular-rl'
 * Launch the environment
-* cd /modular-rl
-* brew install libomp 
-* pip install -r requirements.txt
-
+```Shell
+cd /modular-rl
+brew install libomp 
+pip install -r requirements.txt
+```
 Then follow the readme in modular-rl, e.g., 
 
 ### Train with existing environment
