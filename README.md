@@ -4,10 +4,20 @@
 ```Shell
 docker build -t modular-rl .
 ```
-### Run a container for test
+### Run a container for test (Can not resolve the mujoco key issue)
 ```Shell
 docker run -it modular-rl bash 
 ```
+
+### Run on Mac without dependency issues
+* Install Ananconda Navigator
+* Create Environments 'modular-rl'
+* Launch the environment
+* cd /modular-rl
+* brew install libomp 
+* pip install -r requirements.txt
+* python main.py --expID 001 --td --bu --morphologies walker
+
 Then follow the readme in modular-rl, e.g., 
 
 ### Train with existing environment
