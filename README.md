@@ -16,7 +16,6 @@ docker run -it modular-rl bash
 * cd /modular-rl
 * brew install libomp 
 * pip install -r requirements.txt
-* python main.py --expID 001 --td --bu --morphologies walker
 
 Then follow the readme in modular-rl, e.g., 
 
