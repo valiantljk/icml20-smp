@@ -17,7 +17,7 @@ docker run -it modular-rl bash
 ## Run on Mac (Issue: training takes long time)
 * Install Ananconda Navigator
 * Create Environments 'modular-rl'
-* Launch the environment
+* Launch the environment or with conda activate modular-rl
 ```Shell
 cd /modular-rl
 brew install libomp 
