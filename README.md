@@ -1,5 +1,5 @@
 # Profiling Modular-rl
-This goal of this repo is to take the recent ICML'20 paper as an exmaple,
+This goal of this repo is to take the recent ICML'20 [paper](https://www.cs.cmu.edu/~dpathak/papers/modular-rl.pdf), [Code](https://github.com/huangwl18/modular-rl) as an exmaple,
 * get familar with Google Cloud development environment
 * understand deep reinforcement leanring
 * understand the 'one policy for all' idea in this paper
@@ -80,7 +80,7 @@ chmod +x getid_linux
 ./getid_linux
 ```
 you get something like 'LINUX_AAAA_BBBBB'
-then go to https://www.roboti.us/license.html and get a licnese 'mjkey.txt', save it in /root/.mujoco
+then go to [Roboti](https://www.roboti.us/license.html) and get a licnese 'mjkey.txt', save it in /root/.mujoco
 
 
 ### 5 Install Modula-Rl
