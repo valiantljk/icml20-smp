@@ -1,4 +1,4 @@
-# Profiling Modular-rl
+# Profiling Modular-rl on Cloud
 This goal of this repo is to take the recent ICML'20 [paper](https://www.cs.cmu.edu/~dpathak/papers/modular-rl.pdf)/[code](https://github.com/huangwl18/modular-rl) as an exmaple,
 * get familar with Google Cloud development environment
 * understand deep reinforcement leanring
