@@ -58,11 +58,10 @@ sudo make install
 sudo mkdir -p /home/btrace_lu/.mujoco
 wget https://www.roboti.us/download/mujoco200_linux.zip -O mujoco.zip
 sudo apt-get install unzip
-unzip mujoco.zip -d /root/.mujoco
-sudo unzip mujoco.zip -d /root/.mujoco
-sudo mv /root/.mujoco/mujoco200_linux /root/.mujoco/mujoco200
+unzip mujoco.zip -d /home/btrace_lu/.mujoco
+sudo unzip mujoco.zip -d /home/btrace_lu/.mujoco
+sudo mv /home/btrace_lu/.mujoco/mujoco200_linux /home/btrace_lu/.mujoco/mujoco200
 rm mujoco.zip
-sudo chmod a+rx -R /root
 ```
 
 ### Register Mujoco
@@ -82,6 +81,7 @@ cd /mnt/disks/data/modular-rl/
 git clone https://github.com/valiantljk/icml20-smp.git
 export TMPDIR=/mnt/disks/data/tmp
 cd icml20-smp/modular-rl
+sudo apt-get install libx11-dev
 pip install -r requirements.txt 
 ```
 
