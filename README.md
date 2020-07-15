@@ -1,5 +1,5 @@
 # Profiling Modular-rl
-This goal of this repo is to take the recent ICML'20 [paper](https://www.cs.cmu.edu/~dpathak/papers/modular-rl.pdf), [Code](https://github.com/huangwl18/modular-rl) as an exmaple,
+This goal of this repo is to take the recent ICML'20 [paper](https://www.cs.cmu.edu/~dpathak/papers/modular-rl.pdf)/[code](https://github.com/huangwl18/modular-rl) as an exmaple,
 * get familar with Google Cloud development environment
 * understand deep reinforcement leanring
 * understand the 'one policy for all' idea in this paper
