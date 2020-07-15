@@ -55,7 +55,7 @@ sudo make install
 ### Install Mujoco
 
 ```Shell
-sudo mkdir -p /root/.mujoco
+sudo mkdir -p /home/btrace_lu/.mujoco
 wget https://www.roboti.us/download/mujoco200_linux.zip -O mujoco.zip
 sudo apt-get install unzip
 unzip mujoco.zip -d /root/.mujoco
