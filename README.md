@@ -1,15 +1,12 @@
-## Docker Container for Modular-RL
+## Profiling Modular-rl
 
-### Build a docker image for icml20: modular-rl
+### Run in a container (Issue: mujoco key is not valid in container)
 ```Shell
 docker build -t modular-rl .
-```
-### Run a container for test (Can not resolve the mujoco key issue)
-```Shell
 docker run -it modular-rl bash 
 ```
 
-### Run on Mac without dependency issues
+### Run on Mac(Issue: training takes long time)
 * Install Ananconda Navigator
 * Create Environments 'modular-rl'
 * Launch the environment
@@ -18,6 +15,21 @@ cd /modular-rl
 brew install libomp 
 pip install -r requirements.txt
 ```
+### Run on Google Cloud
+16 vCPU, 60 G Mem, P100 
+```shell
+sudo apt-get install -y nvidia-smi
+sudo reboot
+wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+chmod +x Anaconda3-2020.02-Linux-x86_64.sh
+./Anaconda3-2020.02-Linux-x86_64.sh
+#reopen terminal
+conda create -n modular-rl python=3.6
+conda activate modular-rl
+git clone 
+```
+
+
 Then follow the readme in modular-rl, e.g., 
 
 ### Train with existing environment
