@@ -29,7 +29,7 @@ conda activate modular-rl
 git clone https://github.com/valiantljk/icml20-smp.git
 cd icml20-smp
 cd modular-rl
-pip install -r requirements.txt # might need to add more [disks]{https://cloud.google.com/compute/docs/disks/add-persistent-disk#formatting} for the vm instance
+pip install -r requirements.txt # might need to add more [disks](https://cloud.google.com/compute/docs/disks/add-persistent-disk#formatting) for the vm instance
 ```
 
 
