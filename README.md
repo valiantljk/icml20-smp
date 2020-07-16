@@ -123,7 +123,10 @@ walker_7_main === EpisodeT: 49, Reward: 40.91
 | Google Cloud  | 16 vCPU, 60GB Mem, P100 GPU   |   20   |
 
 ### Visualization
+- [Install ffmpeg](https://tecadmin.net/install-ffmpeg-on-linux/)
+
 - To visualize all ``walker`` environments with the both-way SMP model from experiment ``expID 001``:
 ```Shell
-python visualize.py --expID 001 --td --bu --morphologies walker
+python visualize.py --expID 001 --td --bu --morphologies walker_7_main
 ```
+- To Download the video, click the top-right of the google cloud's ssh window, there is a 'download' option. enter filename to download the video, which is in results/videos
