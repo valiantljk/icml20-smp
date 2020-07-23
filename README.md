@@ -15,14 +15,24 @@ docker run -it modular-rl bash
 ```
 
 ## Run on Mac (Issue: training takes long time)
-* Install Ananconda Navigator
-* Create Environments 'modular-rl'
-* Launch the environment or with conda activate modular-rl
+### Create Conda Env
 ```Shell
 cd /modular-rl
 brew install libomp 
 pip install -r requirements.txt
+conda create -n modular-rl python=3.6
 ```
+### Test
+```Shell
+conda activate modular-rl
+cd /src
+python main.py --expID 001 --td --bu --morphologies walker_7_main --max_timesteps 20000
+```
+### Profiling with torch.utils.bottleneck
+```Shell
+python -m torch.utils.bottleneck main.py --expID 001 --td --bu --morphologies walker_7_main --max_timesteps 20000
+```
+
 
 Running on Cloud seems easier (but I don't recommend google cloud, it's not user-friendly at all, I use it bc it has $300 credit for new users)
 
