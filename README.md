@@ -150,7 +150,7 @@ walker_7_main === EpisodeT: 49, Reward: 40.91
 | Platform      | Configuration                 |  FPS   | 
 | ------------- | ----------------------------- | ------ |
 | MacAir        | 1.6 GHz 2 Core, i5, 8GB Mem   |   4    |
-| MacPro        | 2.6 GHz 6-Core Intel Core i7  |        |
+| MacPro        | 2.6 GHz 6-Core, i7, 32G Mem   |        |
 | Google Cloud  | 16 vCPU, 60GB Mem, P100 GPU   |   20   |
 
 ### Visualization
