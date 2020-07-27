@@ -19,8 +19,11 @@ docker run -it modular-rl bash
 ```Shell
 cd /modular-rl
 brew install libomp 
-pip install -r requirements.txt
+brew install mpich
 conda create -n modular-rl python=3.6
+conda init
+conda activate modular-rl
+pip install -r requirements.txt
 ```
 ### Test
 ```Shell
