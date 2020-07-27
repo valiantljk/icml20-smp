@@ -25,6 +25,22 @@ conda init
 conda activate modular-rl
 pip install -r requirements.txt
 ```
+### Configure Mujoco
+```Shell
+brew install wget
+cd /Downloads
+wget https://www.roboti.us/download/mujoco200_macos.zip
+unzip mujoco200_macos.zip -d /Users/username/.mujoco
+cd /Users/username/.mujoco
+mv mujoco200_macos mujoco200
+```
+### Register Mujoco
+```Shell
+wget https://www.roboti.us/getid/getid_osx
+chmod a+x getid_osx
+```
+you get something like 'OSX_AAAA_BBBBB'
+then go to [Roboti](https://www.roboti.us/license.html) , put the computer id and pro key(need to apply first),and get a licnese 'mjkey.txt', save it in /Users/username/.mujoco
 ### Test
 ```Shell
 conda activate modular-rl
@@ -76,12 +92,11 @@ sudo make install
 ### 3 Install Mujoco
 
 ```Shell
-sudo mkdir -p /home/btrace_lu/.mujoco
+sudo mkdir -p /home/username/.mujoco
 wget https://www.roboti.us/download/mujoco200_linux.zip -O mujoco.zip
 sudo apt-get install unzip
-unzip mujoco.zip -d /home/btrace_lu/.mujoco
-sudo unzip mujoco.zip -d /home/btrace_lu/.mujoco
-sudo mv /home/btrace_lu/.mujoco/mujoco200_linux /home/btrace_lu/.mujoco/mujoco200
+sudo unzip mujoco.zip -d /home/username/.mujoco
+sudo mv /home/username/.mujoco/mujoco200_linux /home/username/.mujoco/mujoco200
 rm mujoco.zip
 ```
 
@@ -93,7 +108,7 @@ chmod +x getid_linux
 ./getid_linux
 ```
 you get something like 'LINUX_AAAA_BBBBB'
-then go to [Roboti](https://www.roboti.us/license.html) and get a licnese 'mjkey.txt', save it in /root/.mujoco
+then go to [Roboti](https://www.roboti.us/license.html) and get a licnese 'mjkey.txt', save it in /home/username/.mujoco
 
 
 ### 5 Install Modula-Rl
