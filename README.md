@@ -28,6 +28,7 @@ pip install -r requirements.txt
 ### Configure Mujoco
 ```Shell
 brew install wget
+brew install gcc@6
 cd /Downloads
 wget https://www.roboti.us/download/mujoco200_macos.zip
 unzip mujoco200_macos.zip -d /Users/username/.mujoco
