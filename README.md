@@ -20,6 +20,7 @@ docker run -it modular-rl bash
 cd /modular-rl
 brew install libomp 
 brew install mpich
+brew install ffmpeg
 conda create -n modular-rl python=3.6
 conda init
 conda activate modular-rl
